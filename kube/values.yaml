@@ -1,0 +1,11 @@
+service:
+  ## @param service.type Kubernetes Service type
+  ##
+  type: NodePort
+  ## @param service.nodePorts.client Node port for the Kafka client connections
+  ## @param service.nodePorts.external Node port for the Kafka external connections
+  ## NOTE: choose port between <30000-32767>
+  ##
+  nodePorts:
+    client: 30092
+    external: 30095

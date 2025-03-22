@@ -1,0 +1,12 @@
+kafka:
+  brokers:
+    - "localhost:30092"
+  username: "user1"
+  password: ""
+  topic: "latestMsgToRedis"
+  retries: 10
+  producer_return_successes: true
+log:
+  rotation_size: 50 # 50MB
+  rotation_count: 7 # 7days
+  level: "info"
