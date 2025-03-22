@@ -9,3 +9,9 @@ service:
   nodePorts:
     client: 30092
     external: 30095
+
+sasl:
+  client:
+    users: 
+      - user1
+    password: "supersecret"
