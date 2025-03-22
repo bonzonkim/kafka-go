@@ -10,7 +10,7 @@ import (
 type KafkaConfig struct {
 	Brokers					[]string `yaml:"brokers"`
 	Username				string	 `yaml:"username"`
-	Passworkd				string	 `yaml:"password"`
+	Password				string	 `yaml:"password"`
 	Topic					string	 `yaml:"topic"`
 	Retries					int		 `yaml:"retries"`
 	ProducerReturnSuccesses bool `yaml:"producer_return_successes"`

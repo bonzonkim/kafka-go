@@ -2,7 +2,7 @@ kafka:
   brokers:
     - "localhost:30092"
   username: "user1"
-  password: ""
+  password: "supersecret"
   topic: "latestMsgToRedis"
   retries: 10
   producer_return_successes: true
